@@ -1,0 +1,39 @@
+
+div{
+    margin: 10px;
+    padding:3px;
+}
+
+#buttonDiv{
+    display : flex;
+    justify-content: space-between;
+    border:none;
+}
+
+header,input{
+    font-size: 20px;
+    font-weight: bold;
+    color:blueviolet;
+    padding:10px;
+    margin:5px;
+}
+
+#Output{
+    padding:5px;
+    font-size: large;
+    border:2px solid skyblue;
+}
+
+button{
+    border-radius: 10px;
+    border:2px solid skyblue;
+    padding:5px;
+    text-align: center;
+    background-color: aqua;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 10px;
+}
+#clear{
+    background-color: grey;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/png" href="/Assets/Images/icon.png" />
+    <title>Image Map</title>
+    <link href="/Assets/Stylesheets/commonStyles.css">
+</head>
+
+<body>
+
+    <header>Click on the highlighted are to see the Images</header>
+    <p>
+    <h3>
+        To Generate coordinates go to :
+    </h3>
+    <a href="https://www.image-map.net/"><strong>https://www.image-map.net/</strong></a>
+    </p>
+
+    <h3>How to set coordinates?</h3>
+    <pre>When used in a map tag, the x numbers are the first and third.
+    The second and fourth digits are for the vertical axis
+    The equation used is x1,y1,x2,y2.
+    </pre>
+
+
+    <img src="/Assets/imageMap/main.jpg" alt="main picture" usemap="#ChocolateMap" width="400" height="400">
+
+    <map name="ChocolateMap">
+        <area target="_blank" alt="Cadbury " title="Cadbury " href="/Assets/imageMap/cadbury.jpeg" coords="65,191,41"
+            shape="circle">
+
+        <area target="_blank" alt="Silk" title="Silk" href="/Assets/imageMap/diaryMilk.jpeg" coords="169,171,50"
+            shape="circle">
+
+        <area target="_blank" alt="Lindt" title="Lindt" href="/Assets/imageMap/lindt.jpg" coords="279,51,408,338"
+            shape="rect">
+
+        <area target="_blank" alt="Hershey's " title="Hershey's " href="/Assets/imageMap/hersheys.jpg"
+            coords="528,196,48" shape="circle">
+
+        <area target="_blank" alt="Toblerone" title="Toblerone" href="/Assets/imageMap/tobler.jpg" coords="661,177,53"
+            shape="circle">
+    </map>
+
+</body>
+
+</html>

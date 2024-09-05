@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./Assets/Stylesheets/commonStyles.css">
+    <script>
+        function a() {
+            let B = [1, 2, 3, 4, 5, 6];
+
+            let sum = B.reduce(getSum, 0);
+
+            console.log(sum);
+            document.getElementById("sum").innerHTML = sum;
+
+        }
+
+        function getSum(total, num) {
+            return total + Math.round(num);
+        }
+    </script>
+</head>
+
+<body onLoad="a();">
+
+    <div>
+
+        <header>Sum of values in a array B = [1,2,3,4,5,6]; is <strong id="sum"></strong>
+        </header>
+
+    </div>
+</body>
+
+
+</html>

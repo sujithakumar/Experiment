@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <title>Recursive Function</title>
+    <link href="./Assets/Stylesheets/styleForScript.css" rel="stylesheet">
+    <script>
+        function recursive(n) {
+            if (n <= 0) {
+                console.log("stopping at",n);
+                return 1;
+            }
+            // Recursive case: call the function with a smaller argument
+            console.log("recursive", (n + recursive(n - 1)));
+            return n + recursive(n - 1);
+        }
+    </script>
+</head>
+
+<body onload="recursive(3)">
+
+
+</body>
+
+
+</html>
